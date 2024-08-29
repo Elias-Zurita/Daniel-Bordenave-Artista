@@ -1,0 +1,24 @@
+.bannerBio{
+    text-align: center;
+    border: blue solid 3px;
+    margin-bottom: 50px;
+}
+.bannerBio img{
+    width: 900px;
+}
+.presentacionBio{
+    border: solid 2px black;
+    width: 1200px;
+    margin: 0 auto;
+    font-family: "Poppins";
+    font-size: 17px;
+    margin-bottom: 50px
+}
+@media (max-width:1250px){ 
+    .bannerBio img{
+        width: 80%;
+    }
+    .presentacionBio{
+        width: 80%;
+    }
+}

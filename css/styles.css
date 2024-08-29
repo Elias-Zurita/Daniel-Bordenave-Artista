@@ -1,0 +1,16 @@
+body{
+    background-color: white;
+    padding-top: 133px;
+}
+:root{
+    --color-primario: #EBBA4D
+}
+h1{
+    font-size:27px;
+    text-transform: uppercase;
+}
+@media (max-width:992px){ 
+    body{
+        padding-top: 52px
+    }
+}
