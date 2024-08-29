@@ -10,11 +10,24 @@ a{
     position: fixed;
     display: none;
     right: 60px;
-    bottom: 130px;
-    z-index: 11;
+    bottom: 140px;
+    z-index: 11000;
     cursor: pointer;
     animation: action 1s infinite alternate;
+    transition:.3s ease-in-out;
+    background-color: black;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        border: 1px solid white;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0;
 }
+.back-to-top:hover{
+    background-color: var(--color-primario);
+    border: black solid 1px;
+}
+
 /* Boton WhatsApp */
 .btn-wsp{
     position:fixed;
@@ -150,6 +163,6 @@ a{
     }
     .back-to-top {
         right: 25px;
-        bottom: 140px;
+        bottom: 115px;
     }
   }

@@ -1,6 +1,6 @@
 .cajaImagenesModelos{
   display: flex;
-  background: black;
+/*  background: black; */
   padding: 2% 0;
   width: 100%;
   margin: 0 auto;
@@ -36,4 +36,27 @@
 }
 .lg-toolbar .lg-download:after { /* Boton para descargar imagen de lightGallery */
   display: none;
+}
+.pintura{
+  position: relative;
+  overflow: hidden;
+
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 175%;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 3px 5px rgba(42, 49, 48, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+    letter-spacing: 3px;
+    opacity: 0;
+}
+.pintura .overlay:hover{
+    opacity: 1;
 }

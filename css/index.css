@@ -20,3 +20,10 @@
     font-family: "Poppins";
     font-size:18px
 }
+
+@media (max-width:600px){ 
+    .bannerHome{
+            background-position: left;
+            height: 96vh;
+    }
+}
