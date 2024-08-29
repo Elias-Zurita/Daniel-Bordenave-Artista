@@ -1,3 +1,12 @@
+/* Scroll personalizado */
+body::-webkit-scrollbar{
+  width: 11px;
+  background: gray;
+}
+body::-webkit-scrollbar-thumb{
+  background:  var(--color-primario);
+  border-radius: 5px;
+}
 body{
     background-color: white;
     padding-top: 133px;
