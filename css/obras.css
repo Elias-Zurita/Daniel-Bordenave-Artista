@@ -17,6 +17,8 @@
   width: 100%;
   filter: grayscale(100%);
   transition: .3s ease-in-out;
+  height: 400px;
+  object-fit:cover;
 }
 .cajaImagenesModelos a:hover img{
   filter: grayscale(0%);

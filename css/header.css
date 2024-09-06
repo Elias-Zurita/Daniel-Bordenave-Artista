@@ -11,7 +11,7 @@ a{
     display: none;
     right: 60px;
     bottom: 140px;
-    z-index: 11000;
+    z-index: 1;
     cursor: pointer;
     animation: action 1s infinite alternate;
     transition:.3s ease-in-out;
