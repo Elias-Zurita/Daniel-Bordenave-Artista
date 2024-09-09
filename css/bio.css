@@ -20,3 +20,8 @@
         width: 80%;
     }
 }
+@media (max-width:500px){ 
+    .bannerBio img{
+        width: 100%;
+    }
+}

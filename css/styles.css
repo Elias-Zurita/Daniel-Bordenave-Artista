@@ -12,7 +12,13 @@ body{
     padding-top: 133px;
 }
 :root{
-    --color-primario: #EBBA4D
+    --color-primario: rgba(176,214,193,255)
+    
+    /* Marroncito
+    
+    --color-primario: #EBBA4D 
+    
+    */
 }
 h1{
     font-size:27px;
