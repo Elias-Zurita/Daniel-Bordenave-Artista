@@ -113,15 +113,18 @@
             </div>
           </div>
           <div class="formularioContacto">
-            <form action="" method="post">
-              <input type="text" placeholder="Nombre*" name="nombre" required>
-              <input type="text" placeholder="Teléfono*" name="telefono" required>
+            <form action="https://api.web3forms.com/submit" method="post">
+              <input type="hidden" name="access_key" value="098d361b-24ec-4625-9ba7-8b4f8a0998cb"> <!-- el value es la key que me envio por mail la pagina, eso vincula los msj a mi casilla de gmail -->
+              <input type="hidden" name="redirect" value="https://daniel-bordenave-artista.vercel.app">
+              <input type="text" placeholder="Nombre*" name="nombre" minlength="4" maxlength="40" required>
+              <input type="text" placeholder="Teléfono*" name="telefono" minlength="8" maxlength="20" required>
               <input type="text" placeholder="E-mail*" name="email" required>
+              <input type="hidden" name="from_name" value="Portfolio Msj">
               <textarea name="mensaje" cols="30" rows="8" placeholder="¡Dejá tu mensaje!" name="mensaje"></textarea>
               <label class="aceptoBases">
                 <input type="checkbox" required> Acepto formar parte de la base de datos
               </label>
-              <button>ENVIAR <i class="fa-solid fa-paper-plane"></i>
+              <button type="submit">ENVIAR <i class="fa-solid fa-paper-plane"></i>
                 <span class="relleno"></span>
               </button> 
             </form>
