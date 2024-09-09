@@ -146,4 +146,7 @@
         width: 100%;
         padding: 20px;
     }
+    .textoRedesContacto{
+        font-size: 16px;
+    }
 }
