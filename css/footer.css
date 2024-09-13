@@ -38,10 +38,10 @@
     font-weight: bold;
 }
 .redesFooter:hover{
-    background-color: var(--color-primario) !important;
+    background-color: black !important;
 }
 .redesFooter:hover i{
-    color: #212529;
+    color: white;
 }
 .cajaDesarrollador{
     background: black;
