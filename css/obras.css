@@ -62,3 +62,25 @@
 .pintura .overlay:hover{
     opacity: 1;
 }
+.infoObraMobile{
+  display: none;
+}
+@media (max-width:600px){ 
+  .infoObraMobile{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Poppins";
+    font-size: 17px;
+  }
+  .overlay{
+    display: none;
+  }
+  .cajaImagenesModelos a:hover img{
+    transform: scale(1); 
+  }
+  .cajaImagenesModelos{
+    margin-bottom:30px
+  }
+}
