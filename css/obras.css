@@ -83,4 +83,7 @@
   .cajaImagenesModelos{
     margin-bottom:30px
   }
+  .cajaImagenesModelos img{
+    filter: grayscale(0%);
+  }
 }
